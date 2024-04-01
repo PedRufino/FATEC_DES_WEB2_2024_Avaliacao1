@@ -19,4 +19,4 @@ O projeto consiste em um sistema de cadastro de alunos para utilização do esta
 
 ## Usuários Linux
 #### Para evitar quaisquer tipos de erro, é necessário utilizar o seguinte comando.
-- sudo chmod -R 777 FATEC_2024_1SEM_DW2/*
+- sudo chmod -R 777 FATEC_DES_WEB2_2024_Avaliacao1/*
