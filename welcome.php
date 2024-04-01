@@ -7,6 +7,12 @@
     .mtText{
         margin-top: 5rem;
     }
+
+    footer{
+        position: static;
+        bottom: 0;
+        width: 100%;
+    }
 </style>
 <?php include './includes/base/headEnd.php' ?>
 
@@ -51,7 +57,7 @@
         ?>
     </table>
 </div>
-<footer class="footer bg-light">
+<footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
     <p class="container text-center py-md-1">
         O sistema <?php echo htmlspecialchars($_SESSION["username"]); ?> 
         serve para simplificar o cadastro de veículos dos alunos. 
