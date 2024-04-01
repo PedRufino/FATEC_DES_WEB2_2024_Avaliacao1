@@ -50,16 +50,16 @@
             }
         ?>
     </table>
-    <footer class="footer fixed-bottom bg-light">
-        <p class="container text-center py-md-1">
-            O sistema <?php echo htmlspecialchars($_SESSION["username"]); ?> 
-            serve para simplificar o cadastro de veículos dos alunos. 
-            Esse processo ágil e organizado garante que cada aluno 
-            tenha acesso a um estacionamento seguro enquanto 
-            frequenta as aulas, contribuindo para a comodidade 
-            e fluidez do dia-a-dia na faculdade.
-        </p>
-        <p class="text-center size-fonte">Fatec &copy; 2024</p>
-    </footer>
 </div>
+<footer class="footer bg-light">
+    <p class="container text-center py-md-1">
+        O sistema <?php echo htmlspecialchars($_SESSION["username"]); ?> 
+        serve para simplificar o cadastro de veículos dos alunos. 
+        Esse processo ágil e organizado garante que cada aluno 
+        tenha acesso a um estacionamento seguro enquanto 
+        frequenta as aulas, contribuindo para a comodidade 
+        e fluidez do dia-a-dia na faculdade.
+    </p>
+    <p class="text-center size-fonte m-0">Fatec &copy; 2024</p>
+</footer>
 <?php include './includes/base/footer.php' ?>
