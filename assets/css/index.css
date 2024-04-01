@@ -1,0 +1,22 @@
+:root{
+    --plano-fundo: url(../img/clouds-7813335_1280.jpg);
+}
+
+body {
+    font: 14px sans-serif;
+}
+
+img{
+    background-size: cover;
+    height: 100%;
+}
+
+.wrapper {
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+}
+
+.btn-color{
+    width: 100%;
+}
